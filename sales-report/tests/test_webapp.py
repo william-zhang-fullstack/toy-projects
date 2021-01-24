@@ -7,8 +7,8 @@ sys.path.append(webapp_path)
 
 
 def test_app_exists():
-    from webapp import app
-    hasattr(app, 'run')
+    from webapp.app import app
+    assert hasattr(app, 'run')
 
 
 def test_dummy():
