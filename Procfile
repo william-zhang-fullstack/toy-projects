@@ -1,1 +1,1 @@
-web gunicorn --pythonpath webapp app:app
+web gunicorn --pythonpath sales-report/webapp app:app
